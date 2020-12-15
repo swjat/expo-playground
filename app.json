@@ -1,0 +1,12 @@
+{
+  "name": "expo-playground",
+  "displayName": "expo-playground",
+  "expo": {
+    "name": "expo-playground",
+    "slug": "expo-playground",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
