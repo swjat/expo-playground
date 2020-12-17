@@ -1,10 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { LoggerExample } from "./logger/LoggerExample";
 
 export default function App() {
+
+  console.log("-----------------------------------------START");
+  new LoggerExample().doSomeLogs();
+  console.log("-----------------------------------------STOP");
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>expo playground</Text>
     </View>
   );
 }
