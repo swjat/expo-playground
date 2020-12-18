@@ -1,5 +1,5 @@
 // unused import
-// import { Text } from "react-native";
+import { Text } from "react-native";
 
 export class TestClass {
     // double and single quotes
@@ -23,7 +23,7 @@ export class TestClass {
         }
 
         // unused variable
-        // const b: any = 2;
-        // console.log(b);
+        const b: any = 2;
+        console.log(b);
     }
 }
