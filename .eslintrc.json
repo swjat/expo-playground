@@ -23,6 +23,7 @@
         "@typescript-eslint/no-unused-vars": ["warn"],
         "@typescript-eslint/comma-dangle": ["off"],
         "linebreak-style": ["off"],
-        "complexity": ["warn", 4]
+        "complexity": ["warn", 4],
+        "prettier/prettier": 0
     }
 }

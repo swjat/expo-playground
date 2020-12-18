@@ -1,31 +1,29 @@
 // unused import
-import { TextInput } from "react-native";
+// import { Text } from "react-native";
 
 export class TestClass {
     // double and single quotes
-    private qwe = "qwe"; // "qwe"
-    private asd = "asd"; // 'asd'
+    private aaa = "aaa"; // "aaa"
+    private bbb = "bbb"; // 'bbb'
 
+    // eslint-disable-next-line
     private aMethod(): void {
         // cyclomatic complexity 5
-        const a: number = 1;
+        const a: number = Math.random();
         if (a == 0) {
-            console.log(0);
+            // TODO
         } else if (a == 1) {
-            console.log(1);
+            // TODO
         } else if (a == 2) {
-            console.log(2);
-            // } else if (a == 3) {
-            //     console.log(3);
+            // TODO
+        } else if (a == 3) {
+            // TODO
         } else {
-            console.log(0);
+            // TODO
         }
 
         // unused variable
-        const b = 2;
-
-        // length 121 (-> over 120)
-        const c: string =
-            "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccC";
+        // const b: any = 2;
+        // console.log(b);
     }
 }
