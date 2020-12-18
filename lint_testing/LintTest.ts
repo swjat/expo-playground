@@ -1,5 +1,5 @@
 // unused import
-// import { Text } from "react-native";
+import { Text } from "react-native";
 
 export class TestClass {
     // double and single quotes
