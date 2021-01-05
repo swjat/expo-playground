@@ -8,3 +8,4 @@ dist
 settings.json
 package.json
 .eslintrc.js
+logger_package/LoggerConfig.js
